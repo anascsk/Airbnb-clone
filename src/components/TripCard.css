@@ -1,0 +1,12 @@
+.tripCardContainer{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 50vh;
+}
+
+.tripCard{
+background-color: rgb(228, 68, 68);
+
+}

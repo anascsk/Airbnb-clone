@@ -1,0 +1,51 @@
+.landingWrapper {
+  height: 90vh;
+  width: 80vw;
+  background-image: url("https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  margin-left: 140px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.landingWrapper h1 {
+  color: white;
+  padding: 30px;
+  font-size: 45px;
+}
+.landingWrapper h2 {
+  color: white;
+  padding: 30px;
+}
+.landingWrapper p {
+  color: white;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cardWrap {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.card {
+  height: 110px;
+  width: 280px;
+  background-color: #14a800;
+  color: white;
+  font-size: 30px;
+  font-weight: 650;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.card:hover {
+  background-color: #fff;
+  color: #14a800;
+}
+
+.card h6 {
+  font-size: 16px;
+}
