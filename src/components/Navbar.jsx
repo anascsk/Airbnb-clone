@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="menuItems">
             <FaGlobe size={21}/>
           </div>
-          <div className="rightButton">
+          <div className="menuButton">
           <FaBars size={21}/>, <FaUserAlt size={21}/>
           </div>
       </div>

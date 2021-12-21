@@ -7,7 +7,7 @@ const TripCardSheet = (props) => {
         <div className='tripCardTop'>
          <img src={props.pic}  alt='pic'/>  </div> 
         <div className='tripCardBottom'>
-        <h3>{props.place}</h3>
+        <h2>{props.place}</h2>
         
         <h5>{props.distance} kilometers away</h5></div> 
       </div>

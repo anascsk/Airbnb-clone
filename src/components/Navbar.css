@@ -7,7 +7,6 @@
   box-shadow: 0px 1px 20px rgb(207, 201, 201);
 }
 
-
 .left {
   align-items: left;
   flex: 1;
@@ -18,6 +17,7 @@
 .logo img {
   width: 118px;
   height: 39px;
+  cursor: pointer;
 }
 .center {
   align-items: center;
@@ -35,8 +35,9 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  cursor: pointer;
 }
-.search{
+.search {
   width: 30px;
   height: 30px;
   background-color: #4ae436;
@@ -44,7 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  cursor: pointer;
 }
 
 .right {
@@ -56,11 +57,19 @@
   display: flex;
   align-items: center;
   margin: 15px;
+  padding: 10px;
+  cursor: pointer;
 }
-.rightButton {
+.menuItems:hover {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.menuButton {
   border: solid 1px gray;
   padding: 16px;
-
+  cursor: pointer;
   margin-right: 90px;
 
   width: 60px;
@@ -73,6 +82,6 @@
   justify-content: space-around;
 }
 
-.rightButton:hover{
-  background-color: #ffffff;
+.rightButton:hover {
+  background-color: #f7f7f7;
 }

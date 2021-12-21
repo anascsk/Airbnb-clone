@@ -1,0 +1,74 @@
+.loginContainer {
+  background-color: white;
+  height: 500px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+  border: 1px solid rgb(230, 224, 224);
+  border-radius: 10px;
+}
+.loginHeader {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgb(230, 224, 224);
+  display: flex;
+  background-color: #4ae436;
+  border-radius: 10px;
+}
+.loginHeader h2 {
+  margin: auto;
+}
+.loginHeader h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-top: 1px;
+}
+
+.loginContainer input {
+  border-radius: 0 0 7px 7px;
+  width: 500px;
+  height: 60px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(223, 207, 207);
+  font-size: 15px;
+  padding-left: 10px;
+}
+.loginContainer span {
+  margin-right: 200px;
+}
+
+button {
+  width: 500px;
+  height: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #14a800;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+h3 {
+  margin: 30px;
+  color: #423d3e;
+}
+
+.registerLink {
+  margin-left: 300px;
+  margin-top: 10px;
+  cursor: pointer;
+}
