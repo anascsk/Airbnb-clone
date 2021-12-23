@@ -20,11 +20,14 @@
   cursor: pointer;
 }
 .center {
+  display: flex;
   align-items: center;
+  justify-content: center;
   flex: 1;
   margin-top: 27px;
 }
 .topButton {
+ 
   border: solid 1px gray;
   padding: 7px 11px;
   padding-left: 16px;

@@ -12,12 +12,12 @@ Perfect</h1>
 Never miss an opportunity again.</p>
 
   <div className="cardWrap">
-      <div className="card">Post a job <br/>and hire a hero<br/>
-      <h6>Talent Marketplace <FaRegArrowAltCircleRight/></h6></div>
-      <div className="card">Browse and <br/> buy products<br/>
-      <h6>Talent Marketplace <FaRegArrowAltCircleRight/></h6></div>
-      <div className="card">Browse and <br/> buy products<br/>
-      <h6>Talent Marketplace <FaRegArrowAltCircleRight/></h6></div>
+      <div className="card">Plan a trip with<br/> help from local<br/>
+      <h6><FaRegArrowAltCircleRight/></h6></div>
+      <div className="card">Make plans for<br/>this weekend
+      <h6> <FaRegArrowAltCircleRight/></h6></div>
+      {/* <div className="card">Browse and <br/> buy products<br/>
+      <h6>Talent Marketplace <FaRegArrowAltCircleRight/></h6></div> */}
   </div>
         </div>
     )

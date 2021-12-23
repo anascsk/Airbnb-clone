@@ -8,6 +8,7 @@ import React from "react";
 
 const Login = () => {
   return (
+    <div className="mainContainer">
     <div className="loginContainer">
       <div className="loginHeader">
         {/* <FaRegTimesCircle size={'30px'}/> */}
@@ -17,14 +18,15 @@ const Login = () => {
       <form>
         <input type="email" name="email" placeholder="Enter Email" />
         <input type="password" placeholder="Enter Password" />
-        <span>
+        {/* <span>
           By clicking you are agreeing to our <b>Privacy Policy</b>
-        </span>
+        </span> */}
         <button>LogIn</button>
       </form>
       <div className="registerLink">
         Don't have an account? <b>Register Now</b>
       </div>
+    </div>
     </div>
   );
 };
