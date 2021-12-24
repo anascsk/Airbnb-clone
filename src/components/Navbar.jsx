@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
           <div className="menuButton" onClick={() => {setLoginModal(true)}} >
           <FaBars size={21}/>, <FaUserAlt size={21}/>
-          {loginModal && <Login/>}
+          {loginModal && <Login toggle={setLoginModal}/>}
           </div>
       </div>
     </div>

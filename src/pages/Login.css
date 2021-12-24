@@ -1,14 +1,15 @@
+
 .mainContainer{
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: inline-block;
-  vertical-align: middle;
+  position:fixed;
+    left: 30%;
+    top: 0%;
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+     
 }
+
 .loginContainer {
   background-color: white;
   height: 500px;
@@ -16,7 +17,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-
+  position: absolute;
   border: 1px solid rgb(230, 224, 224);
   border-radius: 10px;
 }
@@ -46,7 +47,12 @@
   margin-top: 50px;
   padding-top: 1px;
 }
-
+#closeBtn{
+  position: relative;
+  top: 20%;
+  right: 3%;
+  color: rgb(240, 73, 73);
+}
 .loginContainer input {
   border-radius: 0 0 7px 7px;
   width: 500px;

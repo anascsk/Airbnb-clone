@@ -1,26 +1,22 @@
 import "./Login.css";
+import {FaRegTimesCircle} from 'react-icons/fa'
 
-import React from "react";
-// import {
-//     FaRegTimesCircle
 
-//   } from "react-icons/fa";frr
-
-const Login = () => {
+const Login = ({toggle}) => {
   return (
     <div className="mainContainer">
     <div className="loginContainer">
       <div className="loginHeader">
-        {/* <FaRegTimesCircle size={'30px'}/> */}
-        <h2>Login or Register</h2>
+        
+        <h2>Login or Register</h2><div id="closeBtn" onClick={ () => toggle(false)} >
+        <FaRegTimesCircle size={'30px'} /></div>
       </div>
+     
       <h3>Welcome to Airbae</h3>
       <form>
         <input type="email" name="email" placeholder="Enter Email" />
         <input type="password" placeholder="Enter Password" />
-        {/* <span>
-          By clicking you are agreeing to our <b>Privacy Policy</b>
-        </span> */}
+        
         <button>LogIn</button>
       </form>
       <div className="registerLink">
