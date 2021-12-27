@@ -1,6 +1,6 @@
 .container {
   background-color: rgb(255, 255, 255);
-  height: 85px;
+  height: 95px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -39,13 +39,22 @@
   align-items: flex-end;
   justify-content: space-between;
   cursor: pointer;
+  transition: transform .3s;
 }
-.search {
+.topButton:hover{
+  transform: scale(1.10);
+}
+
+.topButton > span{
+ margin-bottom: 4px;
+}
+.searchIcon {
   width: 30px;
   height: 30px;
   background-color: #4ae436;
   border-radius: 50% 50%;
   display: flex;
+  
   align-items: center;
   justify-content: center;
   cursor: pointer;

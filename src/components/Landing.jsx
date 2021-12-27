@@ -17,20 +17,14 @@ const Landing = () => {
       </p>
 
       <div className="cardWrap">
-        <div className="card">
-          Plan a trip with
-          <br /> help from local
-          <br />
-          <h6>
-            <FaRegArrowAltCircleRight />
-          </h6>
-        </div>
+       
+       
         <div className="card">
           Make plans for
           <br />
           this weekend
           <h6>
-            {" "}
+            {"Check it out "}
             <FaRegArrowAltCircleRight />
           </h6>
         </div>

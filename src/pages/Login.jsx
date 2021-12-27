@@ -2,13 +2,13 @@ import "./Login.css";
 import {FaRegTimesCircle} from 'react-icons/fa'
 
 
-const Login = ({toggle}) => {
+const Login = ({setLoginModal}) => {
   return (
     <div className="mainContainer">
     <div className="loginContainer">
       <div className="loginHeader">
         
-        <h2>Login or Register</h2><div id="closeBtn" onClick={ () => toggle(false)} >
+        <h2>Login or Register</h2><div id="closeBtn" onClick={ () => setLoginModal(false)} >
         <FaRegTimesCircle size={'30px'} /></div>
       </div>
      

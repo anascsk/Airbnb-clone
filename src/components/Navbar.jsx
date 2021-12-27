@@ -12,8 +12,8 @@ const Navbar = () => {
       </div>
       <div className="center">
         <div className="topButton">
-          Where are you going? 
-          <div className="search"><FaSearchLocation size={16}/>
+          <span>Where are you going? </span>
+          <div className="searchIcon"><FaSearchLocation size={16}/>
           </div>
         </div>
 
@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
           <div className="menuButton" onClick={() => {setLoginModal(true)}} >
           <FaBars size={21}/>, <FaUserAlt size={21}/>
-          {loginModal && <Login toggle={setLoginModal}/>}
+          {loginModal && <Login setLoginModal={setLoginModal}/>}
           </div>
       </div>
     </div>
