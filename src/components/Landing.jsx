@@ -1,7 +1,9 @@
 import "./Landing.css";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Landing = () => {
+  const history= useHistory()
   return (
     <div className="landingWrapper">
       <h2>Craving for peace?</h2>
@@ -19,7 +21,7 @@ const Landing = () => {
       <div className="cardWrap">
        
        
-        <div className="card">
+        <div className="card" onClick={() => history.push('/searchlist')}>
           Make plans for
           <br />
           this weekend

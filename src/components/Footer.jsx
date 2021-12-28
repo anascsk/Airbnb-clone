@@ -24,25 +24,25 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3>Support</h3>
+            <h3>Community</h3>
             <ul>
-              <li>Help Centre</li>
-              <li>Safety information</li>
-              <li>Cancellation options</li>
-              <li>Our COVID-19 Response</li>
-              <li>Supporting people with disabilities</li>
-              <li>Report a neighbourhood concern </li>
+              <li>Airbnb.org: disaster relief housing</li>
+              <li>Support Afghan refugees</li>
+              <li>Celebrating diversity & belonging</li>
+              <li>Combating discrimination</li>
+              <li>Letter from our founders</li>
+              <li>Learn about new features</li>
             </ul>
           </div>
           <div>
-            <h3>Support</h3>
+            <h3>Hosting</h3>
             <ul>
-              <li>Help Centre</li>
-              <li>Safety information</li>
-              <li>Cancellation options</li>
-              <li>Our COVID-19 Response</li>
-              <li>Supporting people with disabilities</li>
-              <li>Report a neighbourhood concern </li>
+              <li>Try hosting</li>
+              <li>AirCover: protection for Hosts</li>
+              <li>Explore hosting resources</li>
+              <li>Visit our community forum</li>
+              <li>How to host responsibly</li>
+              <li>Careers </li>
             </ul>
           </div>
         </div>

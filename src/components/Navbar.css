@@ -46,11 +46,12 @@
 }
 
 .topButton > span{
- margin-bottom: 4px;
+ margin-bottom: 9px;
+ font-size: 14px;
 }
 .searchIcon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-color: #4ae436;
   border-radius: 50% 50%;
   display: flex;

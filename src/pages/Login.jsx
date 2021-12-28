@@ -1,5 +1,6 @@
 import "./Login.css";
 import {FaRegTimesCircle} from 'react-icons/fa'
+import {Link} from 'react-router-dom'
 
 
 const Login = ({setLoginModal}) => {
@@ -19,9 +20,10 @@ const Login = ({setLoginModal}) => {
         
         <button>LogIn</button>
       </form>
-      <div className="registerLink">
+      <Link to="/register"><div className="registerLink">
         Don't have an account? <b>Register Now</b>
       </div>
+      </Link>
     </div>
     </div>
   );

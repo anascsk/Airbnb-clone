@@ -33,7 +33,7 @@ const DatePicker = () => {
                 Number of guests <PeopleIcon />
             </h2>
             <input min={0} defaultValue={2} type="number" />
-            <Button onClick={() => history.push('/search')}>Search Airbae</Button>
+            <Button onClick={() => history.push('/searchlist')}>Search Airbae</Button>
         </div>
        
     )
