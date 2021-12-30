@@ -1,6 +1,6 @@
 .container {
   background-color: rgb(255, 255, 255);
-  height: 95px;
+  height: 105px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -47,7 +47,7 @@
 
 .topButton > span{
  margin-bottom: 9px;
- font-size: 14px;
+ font-size: 13px;
 }
 .searchIcon {
   width: 40px;
@@ -97,4 +97,29 @@
 
 .rightButton:hover {
   background-color: #f7f7f7;
+}
+
+
+.authMenu{
+  margin-right: 15px;
+}
+.authMenu > h5{
+  background-color: #84e74236;
+  padding: 5px;
+  border-radius: 11px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.authMenu__btn{
+margin: auto;
+background-color: #f7f7f7;
+border-radius: 11px;
+align-items: center;
+display: flex;
+flex-direction: column;
+font-size: 17px;
+margin-top: 2px;
+color: rgba(214, 14, 14, 0.808);
+font-weight: bolder;
+cursor: pointer;
 }

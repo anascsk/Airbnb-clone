@@ -2,10 +2,10 @@ import { useState } from "react";
 import { BrowserRouter, Route, Link, useHistory } from "react-router-dom";
 import "./Navbar.css";
 import { FaSearchLocation, FaBars, FaUserAlt, FaGlobe } from "react-icons/fa";
-import Login from "../pages/Login";
+
 
 const Navbar = () => {
-  const [loginModal, setLoginModal] = useState(false);
+  const [email, setEmail] = useState('')
   const history= useHistory();
   return (
     <div className="container">
@@ -29,19 +29,22 @@ const Navbar = () => {
         </div>
       </div> 
       <div className="right">
+        
         <div className="menuItems">Become a host</div>
         <div className="menuItems">
           <FaGlobe size={21} />
         </div>
+        <div className="authMenu">
+          <h5>{loggedEmail}</h5>
+         <div className="authMenu__btn">Logout</div>
+        </div>
         <Link to="/login">
           <div
             className="menuButton"
-            onClick={() => {
-              setLoginModal(true);
-            }}
+            
           >
             <FaBars size={21} />, <FaUserAlt size={21} />
-            {loginModal && <Login setLoginModal={setLoginModal} />}
+            
           </div>
         </Link>
       </div>

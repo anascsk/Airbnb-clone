@@ -18,7 +18,7 @@ const DatePicker = () => {
         key: "selection",
       };
 
-    function handleSelect(ranges) {
+    const handleSelect = (ranges) => {
         setStartDate(ranges.selection.startDate);
         setEndDate(ranges.selection.endDate);
     }

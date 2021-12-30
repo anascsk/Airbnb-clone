@@ -9,6 +9,7 @@ import SearchList from "./pages/SearchList";
 function App() {
   return (
     <div>
+      
       <BrowserRouter>
       <Route exact path="/">
         <Home />
