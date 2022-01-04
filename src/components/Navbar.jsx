@@ -1,12 +1,13 @@
-import { useState } from "react";
 import { BrowserRouter, Route, Link, useHistory } from "react-router-dom";
 import "./Navbar.css";
 import { FaSearchLocation, FaBars, FaUserAlt, FaGlobe } from "react-icons/fa";
 
+const Navbar = (userEmail) => {
+  const userData = () => {
+    const email = userEmail.email;
+  };
 
-const Navbar = () => {
-  const [email, setEmail] = useState('')
-  const history= useHistory();
+  const history = useHistory();
   return (
     <div className="container">
       <div className="left">
@@ -17,34 +18,23 @@ const Navbar = () => {
         </Link>
       </div>
 
-
       <div className="center">
-        <div className="topButton" onClick={() => history.push('/search')}>
-       
+        <div className="topButton" onClick={() => history.push("/search")}>
           <span>Where do you wanna go? </span>
           <div className="searchIcon">
             <FaSearchLocation size={16} />
           </div>
-         
         </div>
-      </div> 
+      </div>
       <div className="right">
-        
         <div className="menuItems">Become a host</div>
         <div className="menuItems">
           <FaGlobe size={21} />
         </div>
-        <div className="authMenu">
-          <h5>{loggedEmail}</h5>
-         <div className="authMenu__btn">Logout</div>
-        </div>
+        
         <Link to="/login">
-          <div
-            className="menuButton"
-            
-          >
+          <div className="menuButton">
             <FaBars size={21} />, <FaUserAlt size={21} />
-            
           </div>
         </Link>
       </div>

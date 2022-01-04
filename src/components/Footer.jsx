@@ -6,11 +6,14 @@ import {
   FaTwitterSquare,
   FaGlobe,
 } from "react-icons/fa";
+import ScrollTop from "./ScrollTop";
 
 const Footer = () => {
   return (
     <div>
+      
       <div className="footerContainer">
+
         <div className="uls">
           <div>
             <h3>Support</h3>
@@ -46,7 +49,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+       
         <hr />
+        <ScrollTop/>
         <div className="lowerFooter"></div>
         <div className="leftFooter">
           <ul>
